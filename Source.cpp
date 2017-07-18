@@ -4,13 +4,13 @@
 #ifdef _DEBUG
 #pragma comment(lib, "X64\\DEBUG\\Hook")
 #else
-#pragma comment(lib, "X64\\RELESER\\Hook")
+#pragma comment(lib, "X64\\RELEASE\\Hook")
 #endif
 #else
 #ifdef _DEBUG
 #pragma comment(lib, "DEBUG\\Hook")
 #else
-#pragma comment(lib, "RELESER\\Hook")
+#pragma comment(lib, "RELEASE\\Hook")
 #endif
 #endif
 
